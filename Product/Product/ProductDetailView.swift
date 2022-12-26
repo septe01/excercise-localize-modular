@@ -24,7 +24,7 @@ public struct ProductDetailView: View {
 
     public var body: some View {
         VStack {
-            Text("Product Detail")
+            Text(verbatim: "Product Detail")
         }.navigationTitle("Product Detail")
     }
 }

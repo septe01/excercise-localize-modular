@@ -26,9 +26,9 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 240, height: 240)
 
-                Text("Hi, im Quicksand-Bold").font(.custom("Quicksand-Bold", size: 20))
+                Text(verbatim: "Hi, im Quicksand-Bold").font(.custom("Quicksand-Bold", size: 20))
 
-                Text("Hi, im open sans italic").font(.custom("SunnySpells-Regular", size: 20))
+                Text(verbatim: "Hi, im open sans italic").font(.custom("SunnySpells-Regular", size: 20))
                 NavigationLink {
                     ProductView {
                         CartView {
@@ -36,7 +36,7 @@ struct ContentView: View {
                         }
                     }
                 } label: {
-                    Text("Open Product")
+                    Text(verbatim: "Open Product")
                 }
 
             }

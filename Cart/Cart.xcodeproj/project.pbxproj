@@ -12,6 +12,7 @@
 		B357A6FD2956A8D8000D84D8 /* Cart.h in Headers */ = {isa = PBXBuildFile; fileRef = B357A6FA2956A8D8000D84D8 /* Cart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B357A7202956AA43000D84D8 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B357A71F2956AA43000D84D8 /* CartView.swift */; };
 		B357A7262956DC42000D84D8 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357A7252956DC42000D84D8 /* Common.framework */; };
+		B39DF3C62959C5FD008846CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B39DF3C82959C5FD008846CA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,9 @@
 		B357A6FB2956A8D8000D84D8 /* Cart.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Cart.docc; sourceTree = "<group>"; };
 		B357A71F2956AA43000D84D8 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B357A7252956DC42000D84D8 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39DF3C72959C5FD008846CA /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B39DF3C92959C608008846CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B39DF3CA2959C609008846CA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EB7A7A8CC69AA2336E6BA103 /* Pods_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4C5B1AE8AE661C156DA4C5 /* Pods-Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.release.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +55,7 @@
 		B357A6ED2956A8D8000D84D8 = {
 			isa = PBXGroup;
 			children = (
+				B39DF3C82959C5FD008846CA /* Localizable.strings */,
 				B357A6F92956A8D8000D84D8 /* Cart */,
 				B357A6F82956A8D8000D84D8 /* Products */,
 				78C56A891803DF5501DE73C2 /* Pods */,
@@ -139,6 +144,8 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
+				ja,
 			);
 			mainGroup = B357A6ED2956A8D8000D84D8;
 			productRefGroup = B357A6F82956A8D8000D84D8 /* Products */;
@@ -155,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39DF3C62959C5FD008846CA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +204,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B39DF3C82959C5FD008846CA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39DF3C72959C5FD008846CA /* id */,
+				B39DF3C92959C608008846CA /* en */,
+				B39DF3CA2959C609008846CA /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B357A6FE2956A8D8000D84D8 /* Debug */ = {

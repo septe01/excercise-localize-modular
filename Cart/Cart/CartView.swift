@@ -29,7 +29,7 @@ public struct CartView<Destination: View>: View {
     public var body: some View {
         VStack {
             NavigationLink(destination: self.action()) {
-                Text("Open Product Detail")
+                Text(verbatim: "Open Product Detail")
             }
         }.navigationTitle("Cart")
     }

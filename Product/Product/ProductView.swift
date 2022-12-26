@@ -34,11 +34,11 @@ public struct ProductView<Destination: View>: View {
                   .resizable()
                   .frame(width: 240, height: 240)
 
-            Text("Hi, i'm using Quicksand as Font")
+            Text(verbatim: "Hi, i'm using Quicksand as Font")
                   .font(.custom("Quicksand-Regular", size: 20))
                   .foregroundColor(.white)
 
-            Text("Hi, i'm using framework's Sunny Spells as Font")
+            Text(verbatim: "Hi, i'm using framework's Sunny Spells as Font")
                  .font(.custom("SunnySpells-Regular", size: 20))
 
             NavigationLink {
